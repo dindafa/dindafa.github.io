@@ -2,16 +2,14 @@ function populateGeneral() {
     
 const resumeData = {
     social: [
-        { platform: "Twitter", icon: "fa-brands fa-x-twitter fa-fw", url: "#" },
-        { platform: "GitHub", icon: "fa-brands fa-github fa-fw", url: "#" },
-        { platform: "LinkedIn", icon: "fa-brands fa-linkedin-in fa-fw", url: "#" },
-        { platform: "Stack Overflow", icon: "fa-brands fa-stack-overflow fa-fw", url: "#" },
+        { platform: "GitHub", icon: "fa-brands fa-github fa-fw", url: "dindafa.github.io" },
+        { platform: "LinkedIn", icon: "fa-brands fa-linkedin-in fa-fw", url: "linkedin.com/in/dindafa" },
         { platform: "Medium", icon: "fa-brands fa-medium fa-fw", url: "#" }
     ],
     navbar: [
         { name: "Resume", icon: "fa-solid fa-file-lines", url: "index.html" },
         { name: "Projects", icon: "fa-solid fa-briefcase", url: "projects.html" },
-        { name: "Blog", icon: "fa-solid fa-pen-fancy", url: "blog-home.html" },
+        { name: "Blog", icon: "fa-solid fa-pen-fancy", url: "blog.html" },
         { name: "Contact", icon: "fa-solid fa-comment-dots", url: "contact.html" }
     ],
     defaultMode: "light", // or "dark"
