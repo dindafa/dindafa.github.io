@@ -1,0 +1,29 @@
+/* Hide Google Translate Toolbar */
+iframe.goog-te-banner-frame{ display: none !important;}
+body {position: static !important; top:0px !important;}
+
+/* Change the opacity of the Google Translate dropdown */
+.goog-te-combo {
+    opacity: 0.5; /* Adjust the opacity (0 = fully transparent, 1 = fully opaque) */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.goog-te-combo:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+/* Change the opacity of the Google Translate toolbar */
+.goog-te-banner-frame.skiptranslate {
+    opacity: 0.5; /* Adjust the opacity */
+}
+
+.goog-te-banner-frame.skiptranslate:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+/* Custom CSS for the banner image */
+.banner {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
