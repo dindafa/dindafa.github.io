@@ -17,7 +17,19 @@ const resumeData = {
     summary: "Hai! Dinda Fariz Alamsyah (Dinda F.A.) here 👋 you can call me by my first name 'Dinda'. I’m a post-graduate in Information Systems with experience in full-stack engineering and cross-cultural collaboration across Indonesia and Japan. I enjoy blending technical skills with artistic projects like videography and photography. Passionate about learning and adapting, I’m excited to explore part-time opportunities where I can contribute my unique mix of tech know-how and creative energy to meaningful projects!. <br><br><i><b>FUN FACT!</b> 'Dinda' is feminime name in Indonesia, so passively, i prank people alot here in my home country.</i>",
     timeline: [
         {
-            time: "2024 - Present",
+            time: "2025 - 2025",
+            company: "PT. Saitama Juara Mendunia",
+            title: "IT Infrastructure",
+            description: [
+                "Built web-based tools for all company divisions to improve work efficiency.",
+                "Planned and set up IT systems for multiple company branches to ensure smooth operations.",
+                "Worked with different teams to coordinate IT projects across all branches.",
+                "Created easy-to-understand technical guides for IT systems and processes.",
+                "Took care of computer hardware, including regular maintenance and updates when needed."
+            ]
+        },
+        {
+            time: "2024 - Present (As Maintainer)",
             company: "Mova Active",
             title: "Web Developer",
             description: [
@@ -28,7 +40,7 @@ const resumeData = {
             ]
         },
         {
-            time: "2022 - Present",
+            time: "2022 - Present (As Maintainer)",
             company: "IINE INTERNATIONAL",
             title: "Full Stack Engineer",
             description: [
@@ -72,7 +84,7 @@ const resumeData = {
             ]
         },
         {
-            time: "2020 - Present",
+            time: "2020 - Present (Freelance)",
             company: "Freelance",
             title: "Research Assistant",
             description: [
