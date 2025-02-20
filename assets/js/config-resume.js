@@ -19,7 +19,7 @@ const resumeData = {
         {
             time: "2025 - 2025",
             company: "PT. Saitama Juara Mendunia",
-            title: "IT Infrastructure",
+            title: "IT Infrastructure And Programming",
             description: [
                 "Built web-based tools for all company divisions to improve work efficiency.",
                 "Planned and set up IT systems for multiple company branches to ensure smooth operations.",
@@ -31,7 +31,7 @@ const resumeData = {
         {
             time: "2024 - Present (As Maintainer)",
             company: "Mova Active",
-            title: "Web Developer",
+            title: "Wordpress Developer",
             description: [
                 "Developed a brand introduction website for Mova Active using WordPress.",
                 "Designed a user-friendly interface to showcase the brand’s running enthusiast clothing line.",
@@ -42,7 +42,7 @@ const resumeData = {
         {
             time: "2022 - Present (As Maintainer)",
             company: "IINE INTERNATIONAL",
-            title: "Full Stack Engineer",
+            title: "Full Stack Developer",
             description: [
                 "Developed responsive websites with Japanese localization for optimal user engagement.",
                 "Ensured cross-platform compatibility and seamless user experience across devices.",
@@ -64,7 +64,7 @@ const resumeData = {
         {
             time: "2021 - 2021",
             company: "LPK Mega Cahaya Gemilang",
-            title: "Full Stack Engineer",
+            title: "Full Stack Developer",
             description: [
                 "Developed a web-based desktop application for Japanese language simulation tests (JFT-Basic).",
                 "Integrated Japanese and Indonesian localization for user-friendly interface and experience.",
