@@ -2,8 +2,8 @@ function populateGeneral() {
     
 const resumeData = {
     social: [
-        { platform: "GitHub", icon: "fa-brands fa-github fa-fw", url: "dindafa.github.io" },
-        { platform: "LinkedIn", icon: "fa-brands fa-linkedin-in fa-fw", url: "linkedin.com/in/dindafa" },
+        { platform: "GitHub", icon: "fa-brands fa-github fa-fw", url: "https://dindafa.github.io" },
+        { platform: "LinkedIn", icon: "fa-brands fa-linkedin-in fa-fw", url: "https://linkedin.com/in/dindafa" },
         { platform: "Medium", icon: "fa-brands fa-medium fa-fw", url: "#" }
     ],
     navbar: [

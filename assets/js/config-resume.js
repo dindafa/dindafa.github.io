@@ -109,10 +109,10 @@ const resumeData = {
             name: "JFT-Basic Simulation Test Application",
             description: "Created a web-based desktop application for Japanese language simulation tests with localization and scalability features."
         },
-        {
-            name: "Design An Expert System For Mental Disorder Analysis",
-            description: "Designed and wrote technical web design document for Mental Disorder Analysis based on DSM-V book and tree diagram symptoms analysis."
-        },
+        // {
+        //     name: "Design An Expert System For Mental Disorder Analysis",
+        //     description: "Designed and wrote technical web design document for Mental Disorder Analysis based on DSM-V book and tree diagram symptoms analysis."
+        // },
         {
             name: "Nyibat Web Scraping App",
             description: "Developed a project-based application as part of the university final project, focusing on web scraping technology"
@@ -120,6 +120,10 @@ const resumeData = {
         {
             name: "IINE INTERNATIONAL Portfolio Website",
             description: "Developed a responsive website with Japanese localization for optimal user engagement and cross-platform compatibility."
+        },
+        {
+            name: "Mova Active Portfolio Website",
+            description: "Developed a Wordpress for Mova Active brand introduction website, currently this project is still on hold."
         }
     ],
     education: [

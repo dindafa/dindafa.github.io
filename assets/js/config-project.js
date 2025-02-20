@@ -16,12 +16,12 @@ function populateProject() {
                 image: "assets/images/projects/project-jft-simulation.png",
                 url: "/project-jft-simulation.html"
             },
-            {
-                name: "Design An Expert System For Mental Disorder Analysis",
-                description: "The Design of Mental Disorder Expert System (Self Love) is a student project focused on creating a technical web design document, system architecture, wireframes, and a functional app prototype using Figma.",
-                image: "assets/images/projects/project-selflove-uni.png",
-                url: "/project-selflove-uni.html"
-            },
+            // {
+            //     name: "Design An Expert System For Mental Disorder Analysis",
+            //     description: "The Design of Mental Disorder Expert System (Self Love) is a student project focused on creating a technical web design document, system architecture, wireframes, and a functional app prototype using Figma.",
+            //     image: "assets/images/projects/project-selflove-uni.png",
+            //     url: "/project-selflove-uni.html"
+            // },
             {
                 name: "Nyibat Web Scraping App",
                 description: "Nyibat (or Mengambil (Dengan Paksa) in traditional Jambi language) is a University Final Project software designed for web scraping multiple Indonesian marketplaces.",
