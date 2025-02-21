@@ -22,7 +22,7 @@ function populateCaseStudy() {
             },
             {
                 heading: "Solutions & Results",
-                content: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_vFlHJVv9JE?si=Kw4jDisZfhzyowoq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                content: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_vFlHJVv9JE?si=Kw4jDisZfhzyowoq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p>
             Nyibat provides a practical solution for researchers and small businesses by offering a secure and efficient web scraping tool. The software allows users to scrape data from multiple Indonesian marketplaces, store it locally, and analyze it for market trends or price referencing. To minimize legal and technical risks, Nyibat includes scrape settings that warn users to input variables carefully, reducing the likelihood of IP bans. The software also features import/export functionality, enabling users to save and share their results securely. While Nyibat is not publicly hosted or shared due to legal restrictions, it serves as a valuable research tool for authorized users.
         </p>

@@ -21,7 +21,7 @@ function populateCaseStudy() {
             },
             {
                 heading: "Solutions & Results",
-                content: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/j6NISb_2Hdo?si=65Qr0UNT2dd2LtFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                content: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/j6NISb_2Hdo?si=65Qr0UNT2dd2LtFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p>
             The IINE International Portfolio website provides a practical solution by combining Japanese localization with a user-friendly design. The one-page layout ensures easy navigation, while the contact form connects users directly to the company’s email, LINE, and international phone number. The responsive design works flawlessly on all devices, and the minimalist aesthetic aligns with Japanese preferences. These features make the website an effective tool for showcasing IINE International’s services and connecting with clients.
         </p>

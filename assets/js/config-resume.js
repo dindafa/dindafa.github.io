@@ -114,6 +114,7 @@ const resumeData = {
             { name: "📸 Photography", level: 90 },
             { name: "🕺 Videography", level: 80 }
         ],
+        personality: ["MBTI - INFJ-T", "DISC - Compliance", "Enneagram - 9w1", "Socionic - EII", "ST30 - COM, DES, EVA, QCA, SAF, SLC, STR"],
         badges: ["Cross-Cultural Communication", "Team Collaboration", "Problem Solving", "Adaptability", "Time Management", "Attention to Detail"]
     },
     projects: [        
@@ -214,9 +215,22 @@ if (document.querySelector(".resume-skills-section ul.list-unstyled")) {
     }
 }
 
-// Populate resume skills (badge)
-if (document.querySelector(".resume-skills-section ul.list-inline")) {
-    const skillsBadgeContainer = document.querySelector(".resume-skills-section ul.list-inline");
+// Populate personality test
+const personalityContainers = document.querySelectorAll(".resume-skills-section ul.list-inline");
+if (personalityContainers.length >= 2) {
+    // First container for personality traits
+    const personalityContainer = personalityContainers[0];
+    if (resumeData.skills && resumeData.skills.personality) {
+        resumeData.skills.personality.forEach(trait => {
+            const li = document.createElement("li");
+            li.classList.add("list-inline-item");
+            li.innerHTML = `<span class="badge resume-skill-badge">${trait}</span>`;
+            personalityContainer.appendChild(li);
+        });
+    }
+
+    // Second container for soft skills badges
+    const skillsBadgeContainer = personalityContainers[1];
     if (resumeData.skills && resumeData.skills.badges) {
         resumeData.skills.badges.forEach(skill => {
             const li = document.createElement("li");

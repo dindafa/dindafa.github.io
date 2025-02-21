@@ -21,7 +21,7 @@ function populateCaseStudy() {
             },
             {
                 heading: "Solutions & Results",
-                content: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IZGvyJq21q4?si=HjIVif4mOvXp0Ix4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                content: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/IZGvyJq21q4?si=HjIVif4mOvXp0Ix4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <p>
             The JFT-Basic Simulation software provides a practical solution to these challenges by offering a realistic and accessible practice platform. The software includes a <strong>test simulation</strong> that mirrors the official JFT-Basic exam, allowing students to familiarize themselves with the test format and timing. Additionally, the <strong>administration side</strong> enables educators to create, update, and monitor test materials, ensuring the content remains relevant and up-to-date.
         </p>
